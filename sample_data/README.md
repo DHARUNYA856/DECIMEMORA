@@ -1,0 +1,1 @@
+The banking project and a sample decision are seeded automatically. Upload Payment_API_Troubleshooting.txt from the Admin Documents screen. Other JSON files provide additional illustrative cases; they are not automatically imported. Create employee accounts using the admin UI.

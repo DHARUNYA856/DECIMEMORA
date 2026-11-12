@@ -1,0 +1,1 @@
+[{"project":"BANK-001","problem":"Payment API timeout during peak traffic","solution":"Exponential backoff retry","status":"Resolved"},{"project":"BANK-001","problem":"Payment gateway authentication error","solution":"Review gateway credentials and rotation","status":"Historical example"}]

@@ -1,0 +1,9 @@
+Banking Payment System - Payment API Troubleshooting
+Incident: Payment API timeout during peak traffic.
+Observed behavior: Payment requests occasionally timed out during high-traffic periods.
+Root-cause hypothesis: The upstream payment service became temporarily slow under load.
+Options considered: Increase timeout, add retries, or change payment provider.
+Selected action: Implement retry with exponential backoff for transient failures.
+Reason: The API normally recovered after short delays.
+Outcome: Payment failures reduced following the change.
+Operational guidance: Inspect timeout logs, retry settings, and upstream latency before changing the provider.
